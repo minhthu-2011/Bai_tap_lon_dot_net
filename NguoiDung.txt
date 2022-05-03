@@ -1,0 +1,25 @@
+Table: NguoiDung
+
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT * FROM NguoiDung
+use QL_ThuVien
+INSERT INTO NguoiDung(MaND, HoTenND, NgaySinh, GioiTinh, DiaChi, Sdt)
+VALUES ('ND01', 'Nguyen Minh Phuong', '2000-10-04', 'Nu', 'Thai Binh', '035920722');
+
+INSERT INTO NguoiDung(MaND, HoTenND, NgaySinh, GioiTinh, DiaChi, Sdt)
+VALUES ('ND02', 'Do Thi Minh Thu', '2000-11-20', 'Nu', 'Nam Dinh', '0868862376');
+
+INSERT INTO NguoiDung(MaND, HoTenND, NgaySinh, GioiTinh, DiaChi, Sdt)
+VALUES ('ND03', 'Le Thi Ngoc', '2000-10-05', 'Nu', 'Ha Noi', '035912322');
+
+INSERT INTO NguoiDung(MaND, HoTenND, NgaySinh, GioiTinh, DiaChi, Sdt)
+VALUES ('ND04', 'Nguyen Van Phu', '1993-10-04', 'Nam', 'Nam Dinh', '031356722');
+
+INSERT INTO NguoiDung(MaND, HoTenND, NgaySinh, GioiTinh, DiaChi, Sdt)
+VALUES ('ND05', 'Pham Minh Duc', '1995-10-04', 'Nam', 'Cau Giay', '033456722');
+
+INSERT INTO NguoiDung(MaND, HoTenND, NgaySinh, GioiTinh, DiaChi, Sdt)
+VALUES ('ND06', 'Le Hoan Thanh', '1989-10-04', 'Nam', 'Phu Tho', '037528522');
+
+INSERT INTO NguoiDung(MaND, HoTenND, NgaySinh, GioiTinh, DiaChi, Sdt)
+VALUES ('ND07', 'Tran Minh Thu', '1996-10-04', 'Nu', 'Nam Dinh', '03235722');

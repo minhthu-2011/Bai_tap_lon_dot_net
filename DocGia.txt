@@ -1,0 +1,40 @@
+Table : DocGia
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT  * FROM DocGia
+
+INSERT INTO DocGia(MaDG, HoTenDG, NgaySinhDG, GioiTinh)
+VALUES ('DG01', 'Nguyen Hai Phong', '2000-12-10', 'Nam');
+
+INSERT INTO DocGia(MaDG, HoTenDG, NgaySinhDG, GioiTinh)
+VALUES ('DG02', 'Nguyen Cong Phuc', '1998-12-10', 'Nam');
+
+UPDATE DocGia SET HoTenDG = 'Nguyen Hai Phong' WHERE MaDG = 'DG01';
+UPDATE DocGia SET HoTenDG = 'Nguyen Cong Phuc' WHERE MaDG = 'DG02';
+
+INSERT INTO DocGia(MaDG, HoTenDG, NgaySinhDG, GioiTinh)
+VALUES ('DG03', 'Nguyen Hai Yen', '2001-12-10', 'Nu');
+
+INSERT INTO DocGia(MaDG, HoTenDG, NgaySinhDG, GioiTinh)
+VALUES ('DG04', 'Dinh Hai Yen', '2002-01-10', 'Nu');
+
+INSERT INTO DocGia(MaDG, HoTenDG, NgaySinhDG, GioiTinh)
+VALUES ('DG05', 'Pham Thi Hoai', '2000-05-20', 'Nu');
+
+INSERT INTO DocGia(MaDG, HoTenDG, NgaySinhDG, GioiTinh)
+VALUES ('DG06', 'Do Thuy Duong', '2007-04-03', 'Nu');
+
+INSERT INTO DocGia(MaDG, HoTenDG, NgaySinhDG, GioiTinh)
+VALUES ('DG07', 'Doan Huyen Trang', '2000-04-12', 'Nu');
+
+INSERT INTO DocGia (MaDG, HoTenDG, NgaySinhDG, GioiTinh)
+VALUES ('DG08', 'Doan Xuan Thuc', '2000-12-04', 'Nam');
+
+INSERT INTO DocGia(MaDG, HoTenDG, NgaySinhDG, GioiTinh)
+VALUES ('DG09', 'Nguyen Minh Phuong', '2000-10-04', 'Nu');
+
+INSERT INTO DocGia(MaDG, HoTenDG, NgaySinhDG, GioiTinh)
+VALUES ('DG10', 'Do Minh Thu', '2000-11-20', 'Nu');
+
+INSERT INTO DocGia(MaDG, HoTenDG, NgaySinhDG, GioiTinh)
+VALUES ('DG11', 'Luu Anh Tu', '2000-12-10', 'Nu');
+

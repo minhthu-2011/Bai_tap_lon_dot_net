@@ -1,0 +1,30 @@
+ TheLoai dg = new TheLoai();
+            dg.TENTHELOAI = txttentheloai.Text;
+            dg.MATHELOAI = txtmatheloai.Text;
+
+            String t = timTheLoai(dg);
+
+            if (t == "")
+            {
+                sqlCmd.CommandText = "INSERT INTO TheLoai(MaTL,TenTL)" +
+                  "VALUES ( '" + dg.MATHELOAI + "', '" + dg.TENTHELOAI + "')";
+            }
+            else
+            {
+                
+                    sqlCnn.Open();
+                    sqlCmd.CommandText = "DELETE FROM TheLoai WHERE MaTL ='"+dg.MATHELOAI+"'";
+                    int kq = sqlCmd.ExecuteNonQuery();
+                    if (kq != 0)
+                    {
+                        MessageBox.Show("Delete is OK", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Delete is Error", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                
+
+                sqlCnn.Close();
+                ShowList();
+            }

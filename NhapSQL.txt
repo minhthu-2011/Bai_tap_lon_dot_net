@@ -1,0 +1,27 @@
+Bảng:  DocGia  ---------------------------> oki
+- MaDG
+- HoTenDG
+- NgaySinhDG 
+- GioiTinh
+
+Bảng: NguoiDung -----------------------------> oki
+- MaND
+- HoTenND
+- NgaySinhND
+- GioiTinh
+- DiaChi
+- Sdt
+
+Bảng: PhongBan -------------------------------------> oki
+- MaPhong
+- TenPhong
+
+Bảng: Sach    ------------------------------------------->
+- MaS
+- TenS
+- SoLuong
+- MaTL
+
+Bảng: TheLoaiSach ------------------------------------>
+- TenTL
+
